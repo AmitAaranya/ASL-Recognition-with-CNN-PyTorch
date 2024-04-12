@@ -28,4 +28,4 @@ def image_to_tensor(img):
 
 def alphabet_to_num(alphabet):
     conversion_dict = {char: ord(char)-ord('a') for char in "abcdefghijklmnopqrstuvwxyz"}
-    return conversion_dict.get(alphabet.lower(),27)
+    return conversion_dict.get(alphabet.lower(),26)
