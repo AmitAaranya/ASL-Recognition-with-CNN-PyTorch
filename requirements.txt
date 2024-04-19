@@ -1,4 +1,4 @@
 kaggle==1.6.12
-torch==2.2.1
+torch==2.2.2
 torchvision==0.17.2
 numpy==1.26.4
