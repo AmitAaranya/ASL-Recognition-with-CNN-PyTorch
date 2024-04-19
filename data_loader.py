@@ -1,4 +1,5 @@
 import os
+import torch
 import numpy as np
 from PIL import Image
 import torchvision.transforms as transforms
@@ -17,7 +18,7 @@ def load_datasets(folder = "datasets",train_or_test_folder = "Train_Alphabet",si
             labels.append(each_label)
         print(each_label,end = " ")
     print("\n")
-    return np.array(x),np.array(labels)
+    return torch.stack(x),labels
 
 def load_image(filename,size):
     "Load image with defined size"
