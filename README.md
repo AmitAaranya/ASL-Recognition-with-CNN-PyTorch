@@ -9,3 +9,10 @@ The image-based component of the American Sign Language (ASL) dataset comprises 
 This dataset created by Lexset contains 27000 images of the alphabet signed in American Sign Language. Each image is 512 x 512. The data is separated into a training and testing set. Within each set, there are 27 folders, one for each letter and an extra folder of random backgrounds. Each training folder contains 900 examples while each testing folder contains 100 examples.
 
 ![Datasets distributions](./data-set-distribution.png)
+
+
+
+# References:
+
+1. https://www.kaggle.com/datasets/lexset/synthetic-asl-alphabet
+2. https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html
