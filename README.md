@@ -10,7 +10,12 @@ This dataset created by Lexset contains 27000 images of the alphabet signed in A
 
 ![Datasets distributions](./static/data-set-distribution.png)
 
+# Conclusions
+1. I have compared training losses across epochs for RMSProp, ADAM, and SGD optimizers. Plotting the results revealed distinct optimization behaviors: 
 
+    *While ADAM showcased spikes in training losses, SGD with momentum displayed a smooth decay. Interestingly, RMSProp demonstrated fewer spikes compared to ADAM, indicating its relative stability in optimization.*
+
+    ![Comparison Graph](./static/compare-loss-optimizers.png)
 
 # References:
 
