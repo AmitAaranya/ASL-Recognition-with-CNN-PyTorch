@@ -19,14 +19,14 @@ This dataset created by Lexset contains 27000 images of the alphabet signed in A
     ![Comparison Graph](./static/compare-loss-optimizers.png)
 2. Over-Fitting:
 
-    - Training Loss (After 100 epochs): 1.19498580329e-07
-    - Test Loss: 0.953
+    - Training Error (After 100 epochs): ~ 0 %
+    - Test Error: 4.8889 %
 
     We are observing over-fitting of the model to the training set. To overcome this issue, we can employ the following techniques:
 
-        a. Obtain more datasets.
-        b. Implement regularization methods.
-        c. Design a new model architecture.
+        a. Obtain more datasets (Data Augmentation)
+        b. Implement regularization methods
+        c. Reduce Model Complexity
 
 
 
